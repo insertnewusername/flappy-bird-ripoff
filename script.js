@@ -27,7 +27,7 @@ let game_state = 'Start';
 // Add an eventlistener for key presses
 document.addEventListener('keydown', (e) => {
   
-  // Start the game if enter key is pressed
+  // Start the game if space key is pressed
   if (e.key == ' ' &&
       game_state != 'Play') {
     document.querySelectorAll('.pipe_sprite')
@@ -105,7 +105,7 @@ function play() {
     bird_dy = bird_dy + gravity;
     document.addEventListener('keydown', (e) => {
       if (e.key == 'ArrowUp' || e.key == ' ') {
-        bird_dy = -7.6;
+        bird_dy = 7.6;
       }
     });
 
