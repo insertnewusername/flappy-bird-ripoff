@@ -5,7 +5,18 @@
     </head>
 
     <body>
+<div id="startingscreen">Press spacebar to start</div>
 
+
+        <script>
+            // Remove the starting screen overlay when space pressed
+            const startingscreen = document.getElementById('startingscreen');
+
+                document.addEventListener("keydown", (event) => {
+                    if (event.key == " ") {startingscreen.style.display = "none"}
+                }) 
+                
+        </script>
 
     </body>
 </html>
