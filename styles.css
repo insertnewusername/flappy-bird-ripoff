@@ -55,6 +55,12 @@ body {
     top: 12vh;
     left: 20vw;
     text-align: center;
+    background-color: rgb(44, 133, 168);
+    border-radius: 16px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    display: flex;
 }
 
 .score {
