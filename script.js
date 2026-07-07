@@ -83,7 +83,6 @@ function play() {
           game_state = 'End';
           message.innerHTML = 'Press Space To Restart';
           {message.style.display = "block"}
-          message.style.left = '28vw';
           return;
         } else {
           // Increase the score if player
@@ -124,7 +123,6 @@ function play() {
       game_state = 'End';
       {message.style.display = "block"}
       message.innerHTML = 'Press Space To Restart';
-      message.style.left = '28vw';
       return;
     }
     bird.style.top = bird_props.top + bird_dy + 'px';
