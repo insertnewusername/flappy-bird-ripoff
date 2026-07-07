@@ -16,6 +16,11 @@ body {
     z-index:101   
 }
 
+h1 {
+  font-size: 120px;
+}
+
+
 .background {
 
     height: 100vh;
