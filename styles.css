@@ -12,7 +12,8 @@ body {
     place-items: center; 
     display: grid;
     height: 100vh; 
-    background-color:beige;    
+    background-color:beige; 
+    z-index:101   
 }
 
 .background {
