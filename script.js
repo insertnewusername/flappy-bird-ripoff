@@ -43,6 +43,7 @@ document.addEventListener('keydown', (e) => {
     score_title.innerHTML = 'Score : ';
     score_val.innerHTML = '0';
     bird_dy = 0;
+    {message.style.display = "none"}
     play();
   }
 });
@@ -80,6 +81,7 @@ function play() {
           // if collision occurs
           game_state = 'End';
           message.innerHTML = 'Press Space To Restart';
+          {message.style.display = "block"}
           message.style.left = '28vw';
           return;
         } else {
