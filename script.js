@@ -147,7 +147,7 @@ function play() {
     // Create another set of pipes
     // if distance between two pipe has exceeded
     // a predefined value
-    if (pipe_seperation > 115) {
+    if (pipe_seperation > 80) {
       pipe_seperation = 0
       
       // Calculate random position of pipes on y axis
