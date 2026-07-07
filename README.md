@@ -7,6 +7,6 @@ flappy bird
  (totally not a bug that I thought was really cool and left there)
 
  Screenshots:
- <img width="1918" height="865" alt="Screenshot 2026-07-07 202938" src="https://github.com/user-attachments/assets/3ca4a6ab-4ba7-44bc-b26c-5ce9b570c8ad" />
+Gameplay <img width="1918" height="865" alt="Screenshot 2026-07-07 202938" src="https://github.com/user-attachments/assets/3ca4a6ab-4ba7-44bc-b26c-5ce9b570c8ad" />
 <img width="1918" height="862" alt="Screenshot 2026-07-07 203001" src="https://github.com/user-attachments/assets/0570cd52-b577-4a79-adb3-f91e43ce628e" />
 <img width="1918" height="866" alt="Screenshot 2026-07-07 203011" src="https://github.com/user-attachments/assets/c84b7411-57b8-441f-b660-335414bfd4b1" />
