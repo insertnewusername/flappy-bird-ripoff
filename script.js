@@ -18,6 +18,7 @@ let score_val =
     document.querySelector('.score_val');
 let message =
     document.querySelector('.message');
+
     message.style.display = 'none';
 let score_title =
     document.querySelector('.score_title');
@@ -45,6 +46,7 @@ document.addEventListener('keydown', (e) => {
     score_val.innerHTML = '0';
     bird_dy = 0;
     {message.style.display = "none"}
+    {score_val.style.display = "block"}
     play();
   }
 });
