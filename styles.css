@@ -30,7 +30,7 @@ body {
     position: fixed;
     top: 40vh;
     left: 30vw;
-    z-index: 100;
+    z-index: 70;
 }
 
 .pipe_sprite {
