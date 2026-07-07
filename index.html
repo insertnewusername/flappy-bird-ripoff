@@ -7,11 +7,24 @@
 
     <body>
 
+<div class="startingscreen">Press space to play</div>
+
+        <script>
+            // Remove the starting screen overlay when space pressed
+            const startingscreen = document.getElementById('startingscreen');
+
+                document.addEventListener("keydown", (event) => {
+                    if (event.key == " ") {startingscreen.style.display = "none"}
+                }) 
+
+        </script>
+
+
 
 <div class="background"></div>
 <img class="bird" src="floppy.png" alt="floppy-img">
 <div class="message">
-    Press Enter to Start the Game
+    Press Space to Start the Game
 </div>
 <div class="score">
     <span class="score_title"></span>
