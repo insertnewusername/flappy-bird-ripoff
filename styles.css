@@ -82,6 +82,8 @@ h1 {
     padding: 20px 20px;
     border-radius: 16px;
     display: none;
+    display: flex;
+    justify-content: center;
 }
 
 .score_val {
