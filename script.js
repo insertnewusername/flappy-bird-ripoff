@@ -2,7 +2,7 @@
 let move_speed = 5;
   
 // Gravity constant value
-let gravity = 0.5;
+let gravity = -0.5;
   
 // Getting reference to the bird element
 let bird = document.querySelector('.bird');
@@ -28,7 +28,7 @@ let game_state = 'Start';
 document.addEventListener('keydown', (e) => {
   
   // Start the game if enter key is pressed
-  if (e.key == 'Enter' &&
+  if (e.key == ' ' &&
       game_state != 'Play') {
     document.querySelectorAll('.pipe_sprite')
               .forEach((e) => {
@@ -75,7 +75,7 @@ function play() {
           // Change game state and end the game
           // if collision occurs
           game_state = 'End';
-          message.innerHTML = 'Press Enter To Restart';
+          message.innerHTML = 'Press Space To Restart';
           message.style.left = '28vw';
           return;
         } else {
@@ -115,7 +115,7 @@ function play() {
     if (bird_props.top <= 0 ||
         bird_props.bottom >= background.bottom) {
       game_state = 'End';
-      message.innerHTML = 'Press Enter To Restart';
+      message.innerHTML = 'Press Space To Restart';
       message.style.left = '28vw';
       return;
     }
