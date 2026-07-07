@@ -1,4 +1,8 @@
 #startingscreen {
     width: 100%;
     text-align: center;
+    font-size: 100px;
+    place-items: center; 
+    display: grid;
+    height: 100vh;     
 }
