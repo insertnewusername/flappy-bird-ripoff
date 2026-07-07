@@ -18,6 +18,7 @@ let score_val =
     document.querySelector('.score_val');
 let message =
     document.querySelector('.message');
+    message.style.display = 'none';
 let score_title =
     document.querySelector('.score_title');
   
@@ -121,6 +122,7 @@ function play() {
     if (bird_props.top <= 0 ||
         bird_props.bottom >= background.bottom) {
       game_state = 'End';
+      {message.style.display = "block"}
       message.innerHTML = 'Press Space To Restart';
       message.style.left = '28vw';
       return;
