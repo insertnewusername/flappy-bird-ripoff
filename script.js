@@ -124,8 +124,8 @@ function play() {
     // Collision detection with bird and
     // window top and bottom
 
-    if (bird_props.top <= 0 ||
-        bird_props.bottom >= background.bottom) {
+  const viewportHeight = window.innerHeight;
+  if (bird_props.top <= 0 || bird_props.bottom >= viewportHeight) {
       game_state = 'End';
       {message.style.display = "block"}
       message.innerHTML = 'Press Space To Restart';
