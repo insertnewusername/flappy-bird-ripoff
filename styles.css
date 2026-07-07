@@ -4,5 +4,6 @@
     font-size: 100px;
     place-items: center; 
     display: grid;
-    height: 100vh;     
+    height: 100vh; 
+    background-color:beige;    
 }
