@@ -16,9 +16,11 @@ body {
 }
 
 .background {
-    height: 100px;
-    width: 160px;
+    
+    height: 100vh;
+    width: 100vw;
     background-color: skyblue;
+    z-index: -1;
 }
 
 .bird {
