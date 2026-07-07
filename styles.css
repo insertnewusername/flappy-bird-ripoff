@@ -78,7 +78,7 @@ h1 {
     color: black;
     top: 20px;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
     background-color:burlywood;
     padding: 20px 20px;
     border-radius: 16px;
