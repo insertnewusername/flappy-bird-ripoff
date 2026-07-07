@@ -16,6 +16,10 @@ let background =
 // Getting reference to the score element
 let score_val =
     document.querySelector('.score_val');
+
+let score =
+    document.querySelector('.score');
+
 let message =
     document.querySelector('.message');
 
@@ -46,7 +50,7 @@ document.addEventListener('keydown', (e) => {
     score_val.innerHTML = '0';
     bird_dy = 0;
     {message.style.display = "none"}
-    {score_val.style.display = "block"}
+    {score.style.display = "block"}
     play();
   }
 });
