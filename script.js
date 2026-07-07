@@ -25,6 +25,8 @@ let score_title =
 let game_state = 'Start';
   
 // Add an eventlistener for key presses
+
+//restart block
 document.addEventListener('keydown', (e) => {
   
   // Start the game if space key is pressed
@@ -35,10 +37,12 @@ document.addEventListener('keydown', (e) => {
       e.remove();
     });
     bird.style.top = '40vh';
+    bird_props = bird.getBoundingClientRect();
     game_state = 'Play';
     message.innerHTML = '';
     score_title.innerHTML = 'Score : ';
     score_val.innerHTML = '0';
+    bird_dy = 0;
     play();
   }
 });
